@@ -1,0 +1,41 @@
+#project-area {
+    margin: 1em 0;
+    position: relative;
+}
+
+#project-area img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+span.tip {
+    margin-top: 1em;
+    padding: .5em 1.5em;
+    background: white;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .4);
+}
+
+#project-area .hotspot {
+    position: absolute;
+}
+
+#project-area .hotspot .hotspot-form {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .2);
+    padding: 1em;
+}
+
+#project-area .hotspot .point {
+    width: 16px;
+    height: 16px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    border-radius: 50%;
+}
