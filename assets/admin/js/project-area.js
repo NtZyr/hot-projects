@@ -15,8 +15,6 @@ $(document).ready(function () {
 
     placeHotspots(hotspots);
 
-    console.log(hotspots);
-
     $('.point').live('click', function (e) {
         e.stopPropagation();
         var hotspointForm = $(this).parent().find('.hotspot-form');
