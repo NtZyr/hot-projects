@@ -25,5 +25,6 @@ require plugin_dir_path(__FILE__) . 'inc/project-area.php';         // register 
 require plugin_dir_path(__FILE__) . 'inc/admin-hotspot-form.php';
 require plugin_dir_path(__FILE__) . 'inc/get_hotspot.php';
 require plugin_dir_path(__FILE__) . 'inc/post-type-projects-metaboxes.php';
+require plugin_dir_path(__FILE__) . 'inc/hot-project-templates.php';
 
 require plugin_dir_path(__FILE__) . 'assets/admin.php';
